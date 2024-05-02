@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+}
+
+.img-fluid {
+  max-width: 90%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.App-link {
+  color: #61dafb;
+  overflow: hidden;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.header {
+  background-color: #333;
+  color: #fff;
+  height: 10vh;
+  overflow: hidden;
+}
+
+.logo {
+  height: 100%;
+  object-fit: contain;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 10vh;
+}
+
+.header-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    height: 20vh;
+  }
+
+  .site-title {
+    line-height: 20vh;
+  }
+
+  .header-image {
+    height: 100%;
+  }
+}
